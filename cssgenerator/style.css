@@ -1,0 +1,24 @@
+img-0 {
+            background: url('Images/sonic2.png');
+            height: 235px;
+            width: 370px;
+            display:inline-block;
+        }
+img-1 {
+            background: url('Images/sonic1.png');
+            height: 370px;
+            width: 370px;
+            display:inline-block;
+        }
+img-2 {
+            background: url('Images/sous dossier images/png-clipart-sonic-the-hedgehog-2-sonic-mania-pixel-art-tails-pixel-game-maker-mv-sonic-the-hedgehog-rectangle-thumbnail.png');
+            height: 433px;
+            width: 348px;
+            display:inline-block;
+        }
+img-3 {
+            background: url('Images/sous dossier images/png-transparent-sonic-mania-sonic-the-hedgehog-3-sonic-forces-sprite-sprite-blue-game-sonic-the-hedgehog-thumbnail.png');
+            height: 360px;
+            width: 360px;
+            display:inline-block;
+        }
