@@ -1,0 +1,22 @@
+version: "3"
+services:
+  api:
+    image: matfire/spotitech
+    environment:
+      - DB_HOST=db
+      - DB_PORT=3306
+    ports:
+      - "8000:3000"
+    restart: "unless-stopped"
+    depends_on:
+      - db
+  db:
+    image: mysql
+    volumes:
+      - ./my_spotify.sql:/docker-entrypoint-initdb.d/dump.sql
+      - ./data/:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=toor
+      - MYSQL_DATABASE=spotify
+      - MYSQL_USER=spoty
+      - MYSQL_PASSWORD=spotypwd
